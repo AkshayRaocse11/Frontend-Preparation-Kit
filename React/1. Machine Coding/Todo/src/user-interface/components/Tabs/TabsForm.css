@@ -1,0 +1,45 @@
+﻿.TabsForm{
+	padding: 24px;
+	.tabs-container{
+		display: flex;
+	}
+	
+	button{
+		opacity: 0.6;
+		border: none;
+		padding: 10px 16px;
+		cursor: pointer;
+	}
+	
+	.active-button{
+		opacity: 1;
+		font-weight: bolder;
+	}
+	
+	.active-tabs{
+		display: flex;
+		height: 300px;
+		border: 2px solid black;
+	}
+	
+	label{
+		margin: 10px;
+	}
+	
+	input{
+		margin: 10px;
+	}
+	
+	.tabs-footer{
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+	
+	.error-message{
+		display: block;
+		color: red;
+		font-size: small;
+		text-align: center;
+	}
+}
