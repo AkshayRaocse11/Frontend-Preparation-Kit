@@ -1,4 +1,5 @@
-﻿// “map() is used to transform each element of an array and return a new array without mutating the original one.”
+﻿// “map() is used to transform each element of an array and return a new array without mutating 
+// the original one.”
 
 // If this is null or undefined → throw TypeError
 // If callback is not a function → throw TypeError

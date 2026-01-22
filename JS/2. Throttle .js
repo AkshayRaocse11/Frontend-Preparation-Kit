@@ -1,4 +1,5 @@
-﻿// “A technique that limits a function’s execution to once per fixed time interval, regardless of how often the event fires.”
+﻿// “A technique that limits a function’s execution to once per fixed time interval, regardless of how often 
+// the event fires.”
 
 function throttle(fn,delay){
 	let isExecuted = 0;
