@@ -8,7 +8,7 @@ export default function flatten(value) {
 		for(const element of arr) {
 			if (Array.isArray(element)) {
 				flattenRecursively(element)
-			} else if(typeof element === 'object'){
+			} else if(element !== null && typeof element === 'object'){
 				flattenRecursively(element)
 			} else {
 				result.push(element)

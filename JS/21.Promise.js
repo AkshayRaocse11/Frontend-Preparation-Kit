@@ -24,8 +24,8 @@
  * -----------------------------------------------------
  *
  * DEFINITION:
- * A Promise represents a value that may be available
- * now, later, or never.
+ * A Promise is an object that represents the eventual result of an asynchronous operation,
+ * which can either be fulfilled with a value, rejected with an error, or remain pending.
  *
  * A Promise is an OBJECT.
  */

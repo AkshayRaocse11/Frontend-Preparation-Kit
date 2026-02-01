@@ -125,11 +125,30 @@ console.log(m);
  * -----------------------------------------------------
  * 8. slice() vs splice()
  * -----------------------------------------------------
+ * slice(start, end)
+ *
+ * Returns a new array
+ *
+ * Does NOT change the original array
+ *
+ * end is NOT included
+ * 
+ * splice() — mutating (dangerous if not careful)
+ *
+ * splice(start, deleteCount)
+ *
+ * CHANGES the original array
+ *
+ * Removes items from the array itself
+ *
+ * Returns the removed items
  */
 const s = [1, 2, 3, 4];
 
-console.log(s.slice(1, 3)); // [2, 3]
-console.log(s); // unchanged
+const result = s.slice(1, 3);
+
+console.log(result); // [2, 3]
+console.log(s);      // [1, 2, 3, 4] ✅ unchanged
 
 s.splice(1, 2);
 console.log(s); // [1, 4]
